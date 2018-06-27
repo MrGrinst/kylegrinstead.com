@@ -17,6 +17,7 @@ module.exports = {
               siteMetadata {
                 title
                 siteUrl
+                site_url: siteUrl
               }
             }
           }
