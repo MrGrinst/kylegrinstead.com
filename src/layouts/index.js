@@ -20,8 +20,8 @@ const Layout = ({ children, data }) => (
     >
       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
       <link rel="shortcut icon" type="image/ico" href={favicon}/>
-      <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
-      <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+      <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
     </Helmet>
     <Navbar siteTitle={data.site.siteMetadata.heading} />
     {children()}

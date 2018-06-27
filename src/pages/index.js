@@ -72,19 +72,19 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-sm-4">
             <section className="box box-style1">
-              <a className="no-dec" href="http://jumpintorivet.com"><h3>Rivet</h3></a>
-              <p>Although <a href="http://jumpintorivet.com">Rivet is no more</a>, I’m very proud of the product I co-founded and built. If you’re interested, you can check out the <a href="https://github.com/MrGrinst/Rivet-iOS">iOS</a> or <a href="https://github.com/MrGrinst/Rivet-Android">Android</a> source code.</p>
+              <Link className="no-dec" to="http://mrgrinst.github.io/rivet-archived-site/"><h3>Rivet</h3></Link>
+              <p>Although <Link to="http://mrgrinst.github.io/rivet-archived-site/">Rivet is no more</Link>, I’m very proud of the product I co-founded and built. If you’re interested, you can check out the <Link to="https://github.com/MrGrinst/Rivet-iOS">iOS</Link> or <Link to="https://github.com/MrGrinst/Rivet-Android">Android</Link> source code.</p>
             </section>
           </div>
           <div className="col-sm-4">
             <section className="box box-style1">
-              <a className="no-dec" href="http://gamestridestudios.com"><h3>Gamestride Studios</h3></a>
-              <p>A side project/company that I developed <a href="http://gamestridestudios.com/ahhh-round">Ahhh-round</a> under. It’s been a while since I’ve done anything with it, but I’ll revive it someday.</p>
+              <Link className="no-dec" to="http://gamestridestudios.com"><h3>Gamestride Studios</h3></Link>
+              <p>A side project/company that I developed <Link to="http://gamestridestudios.com/ahhh-round">Ahhh-round</Link> under. It’s been a while since I’ve done anything with it, but I’ll revive it someday.</p>
             </section>
           </div>
           <div className="col-sm-4">
             <section className="box box-style1">
-              <a className="no-dec" href="{{ root_url }}/blog"><h3>Blog</h3></a>
+              <Link className="no-dec" to="/blog"><h3>Blog</h3></Link>
               <p>A place to share my thoughts with anyone willing to listen. It’s something I should update more often; right now it’s a little bare.</p>
             </section>
           </div>
@@ -111,10 +111,10 @@ const IndexPage = () => (
           <div className="col-xs-12">
             <h3>Or find me on ...</h3>
             <ul className="social">
-              <li className="twitter"><a href="http://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></a></li>
-              <li className="linkedin"><a href="http://linkedin.com/in/kylegrinstead/" className="fa fa-linkedin"><span>LinkedIn</span></a></li>
-              <li className="github"><a href="http://github.com/mrgrinst" className="fa fa-github"><span>Github</span></a></li>
-              <li className="googleplus"><a href="http://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></a></li>
+              <li className="twitter"><Link to="https://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></Link></li>
+              <li className="linkedin"><Link to="https://linkedin.com/in/kylegrinstead/" className="fa fa-linkedin"><span>LinkedIn</span></Link></li>
+              <li className="github"><Link to="https://github.com/mrgrinst" className="fa fa-github"><span>Github</span></Link></li>
+              <li className="googleplus"><Link to="https://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></Link></li>
               <li className="rss"><Link to='/blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
             </ul>
           </div>

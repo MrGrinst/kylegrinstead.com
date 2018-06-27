@@ -39,7 +39,7 @@ export default class IndexPage extends React.Component {
         <div className="paginator text-center">
           <ul className="list-inline">
             <li>{ first ? <span>&larr; Older</span> : <Link to={`/blog/${previousUrl}`}>&larr; Older</Link> }</li>
-            <li>&nbsp;<a href="/blog/archives">Blog Archives</a>&nbsp;</li>
+            <li>&nbsp;<Link to="/blog/archives">Blog Archives</Link>&nbsp;</li>
             <li>{ last ? <span>Newer &rarr;</span> : <Link to={`/blog/${nextUrl}`}>Newer &rarr;</Link> }</li>
           </ul>
         </div>

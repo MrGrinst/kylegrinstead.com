@@ -15,12 +15,12 @@ export const BlogPostTemplate = ({
   helmet,
   author,
   date,
-  pathContext,
+  next,
+  prev,
   siteUrl,
   slug
 }) => {
   const PostContent = contentComponent || Content
-  const { next, prev } = pathContext
 
   return (
     <div className="container-fluid post-container" itemScope itemType="http://schema.org/Article">
@@ -42,7 +42,7 @@ export const BlogPostTemplate = ({
       <div className="bottom-color-filled">
         <div className="bottom-deets" >
           <div itemProp="author" itemScope="" itemType="http://schema.org/Person">
-            <link itemProp="sameAs" href="http://kylegrinstead.com"/>
+            <link itemProp="sameAs" href="https://kylegrinstead.com"/>
             <link itemProp="email" href="mailto:kyle@kylegrinstead.com"/>
             <div className="written-by">
               <b>Written by <span itemProp="name">{author}</span> on {date}</b>
@@ -53,10 +53,10 @@ export const BlogPostTemplate = ({
               </div>
               <ul className="social">
                 <div className="inline-holder">
-                  <li className="twitter text-center"><a href="http://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></a></li>
+                  <li className="twitter text-center"><Link to="http://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></Link></li>
                 </div>
                 <div className="inline-holder">
-                  <li className="googleplus text-center"><a href="http://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></a></li>
+                  <li className="googleplus text-center"><Link to="http://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></Link></li>
                 </div>
                 <div className="inline-holder">
                   <li className="rss text-center"><Link to='/blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
@@ -108,7 +108,8 @@ const BlogPost = ({ data, pathContext }) => {
       date={post.frontmatter.date}
       siteUrl={data.site.siteMetadata.siteUrl}
       slug={post.fields.slug}
-      pathContext={pathContext}
+      next={pathContext.next}
+      prev={pathContext.prev}
     />
   )
 }
