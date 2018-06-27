@@ -53,13 +53,13 @@ export const BlogPostTemplate = ({
               </div>
               <ul className="social">
                 <div className="inline-holder">
-                  <li className="twitter text-center"><Link to="http://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></Link></li>
+                  <li className="twitter text-center"><a href="http://twitter.com/mrgrinst" className="fa fa-twitter"><span>Twitter</span></a></li>
                 </div>
                 <div className="inline-holder">
-                  <li className="googleplus text-center"><Link to="http://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></Link></li>
+                  <li className="googleplus text-center"><a href="http://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></a></li>
                 </div>
                 <div className="inline-holder">
-                  <li className="rss text-center"><Link to='/blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
+                  <li className="rss text-center"><Link to='blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
                 </div>
               </ul>
             </div>

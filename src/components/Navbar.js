@@ -15,7 +15,7 @@ const Navbar = ({ siteTitle }) => (
           <Link to='/#contact'>Contact</Link>
         </li>
         <li>
-          <Link to='/blog'>Blog</Link>
+          <Link to='blog'>Blog</Link>
         </li>
       </ul>
     </div>
