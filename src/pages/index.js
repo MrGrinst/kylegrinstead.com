@@ -34,7 +34,7 @@ const IndexPage = () => (
             <section className="box box-style1">
               <span className="fa featured fa-code"></span>
               <h3>Developer</h3>
-              <p>Passionate about writing clean code, learning new stuff, and helping others do the same.</p>
+              <p>Passionate about writing clean code, constant learning, and helping others. Currently working at <a href="https://instructure.com">Instructure</a>.</p>
             </section>
           </div>
           <div className="col-sm-4">
