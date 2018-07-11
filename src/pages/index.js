@@ -115,7 +115,7 @@ const IndexPage = () => (
               <li className="linkedin"><a href="https://linkedin.com/in/kylegrinstead/" className="fa fa-linkedin"><span>LinkedIn</span></a></li>
               <li className="github"><a href="https://github.com/mrgrinst" className="fa fa-github"><span>Github</span></a></li>
               <li className="googleplus"><a href="https://plus.google.com/+KyleGrinstead?rel=author" className="fa fa-google-plus"><span>Google Plus</span></a></li>
-              <li className="rss"><Link to='blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
+              <li className="rss"><Link to='/blog/rss.xml' className="fa fa-rss-square"><span>RSS</span></Link></li>
             </ul>
           </div>
         </div>
