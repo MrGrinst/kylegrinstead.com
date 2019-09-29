@@ -4,7 +4,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
-import profilePic from '../img/kylegrinstead2018-500-minified.jpg'
+import profilePic from '../img/KyleGrinstead2019SquareCentered500Minified.jpg'
 
 export const BlogPostTemplate = ({
   content,

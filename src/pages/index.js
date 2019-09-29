@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import profilePic from '../img/kylegrinstead2018-500-minified.jpg'
+import profilePic from '../img/KyleGrinstead2019SquareCentered500Minified.jpg'
 
 const IndexPage = () => (
   <div className="container-fluid">
@@ -78,8 +78,8 @@ const IndexPage = () => (
           </div>
           <div className="col-sm-4">
             <section className="box box-style1">
-              <a className="no-dec" href="http://gamestridestudios.com"><h3>Gamestride Studios</h3></a>
-              <p>A side project/company that I developed <a href="http://gamestridestudios.com/ahhh-round">Ahhh-round</a> under. It’s been a while since I’ve done anything with it, but I’ll revive it someday.</p>
+              <span><h3>TBA Project</h3></span>
+                <p>Although it's not ready enough to be announced, I've started working on a project that will hopefully be fruitful and helpful to others! Details to come.</p>
             </section>
           </div>
           <div className="col-sm-4">
