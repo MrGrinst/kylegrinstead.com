@@ -4,7 +4,7 @@ import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import Content, { HTMLContent } from '../components/Content'
-import profilePic from '../img/KyleGrinstead2019SquareCentered500Minified.jpg'
+import profilePic from '../img/kylegrinstead2021-500.jpg'
 
 export const BlogPostTemplate = ({
   content,
@@ -43,7 +43,7 @@ export const BlogPostTemplate = ({
         <div className="bottom-deets" >
           <div itemProp="author" itemScope="" itemType="http://schema.org/Person">
             <link itemProp="sameAs" href="https://kylegrinstead.com"/>
-            <link itemProp="email" href="mailto:kyle@kylegrinstead.com"/>
+            <link itemProp="email" href="mailto:kyleag@hey.com"/>
             <div className="written-by">
               <b>Written by <span itemProp="name">{author}</span> on {date}</b>
             </div>

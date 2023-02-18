@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import profilePic from '../img/KyleGrinstead2019SquareCentered500Minified.jpg'
+import profilePic from '../img/kylegrinstead2021-500.jpg'
 
 const IndexPage = () => (
   <div className="container-fluid">
@@ -34,7 +34,7 @@ const IndexPage = () => (
             <section className="box box-style1">
               <span className="fa featured fa-code"></span>
               <h3>Developer</h3>
-              <p>Passionate about writing clean code, constant learning, and helping others. Currently working at <a href="https://instructure.com">Instructure</a>.</p>
+              <p>Passionate about writing clean code, constant learning, and helping others. Currently working at <a href="https://bill.com">BILL (on the Divvy product)</a>.</p>
             </section>
           </div>
           <div className="col-sm-4">
@@ -103,7 +103,7 @@ const IndexPage = () => (
           <div className="col-xs-12">
             <header>
               <h2>Want to talk? Shoot me an email!</h2>
-              <span>Email: <a href="mailto:kyle@kylegrinstead.com">kyle@kylegrinstead.com</a></span>
+              <span>Email: <a href="mailto:kyleag@hey.com">kyleag@hey.com</a></span>
             </header>
           </div>
         </div>
